@@ -1,0 +1,395 @@
+@keyframes moveToBottom { 
+
+0% { top: 0%
+
+
+}
+
+100% { top: 100%
+
+
+}
+
+}
+
+@keyframes moveToBottoms { 
+
+0% { top: 0%
+
+
+}
+
+100% { top: 75%
+
+
+}
+
+}
+
+@keyframes moveToBottomring { 
+
+0% { top: 31%
+
+
+}
+
+100% { top: 75%
+
+
+}
+
+}
+
+@keyframes moveToBottomblue { 
+
+0% { top: 20%
+
+
+}
+
+100% { top: 75%
+
+
+}
+
+}
+
+@keyframes moveToBottomcat { 
+
+0% { top: 13%
+
+
+}
+
+100% { top: 75%
+
+
+}
+
+}
+
+
+
+@keyframes moveToTop { 
+
+0% { top: 0%
+
+
+}
+
+100% { top: -100%
+
+
+}
+
+}
+
+@keyframes moveToTops { 
+
+0% { top: 48%
+
+
+}
+
+100% { top: 2%
+
+
+}
+
+}
+
+@keyframes moveToTopbird { 
+
+0% { top: 83%
+
+
+}
+
+100% { top: 2%
+
+
+}
+
+}
+
+@keyframes opacityToZero {
+
+    0% {
+        opacity: 1
+    }
+
+    100% {
+          opacity: 0
+    }
+}
+
+
+
+.background {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+z-index: -2;
+}
+
+
+.line {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+z-index: -1;
+}
+
+
+.first {
+    width: 8%;
+    height: 8%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityToZero,moveToBottom;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    animation-play-state: paused;
+
+   top: -4.5%;
+   left: 16.2%;
+z-index: 1;
+}
+
+.first:hover {
+    animation-play-state: running;
+}
+
+.second {
+    width: 7.7%;
+    height: 7.7%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityToZero,moveToTop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+
+   top: 0%;
+   left: 28.4%;
+z-index: 1;
+}
+
+.second:hover {
+    animation-play-state: running;
+}
+
+
+.third {
+    width: 7.25%;
+    height: 7.25%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityToZero,moveToBottom;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    animation-play-state: paused;
+    top: 0%;
+   left: 40.3%;
+z-index: 1;
+}
+
+.third:hover {
+    animation-play-state: running;
+}
+
+
+.fourth {
+    width: 7.7%;
+    height: 7.7%;
+    display: inline-block;
+    position: fixed;
+        animation-name: opacityToZero,moveToBottom;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    animation-play-state: paused;
+
+    top: 0%;
+   left: 51.7%;
+z-index: 1;
+}
+
+.fourth:hover {
+    animation-play-state: running;
+}
+
+
+.fifth {
+    width: 7.3%;
+    height: 7.3%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityToZero,moveToBottom;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    animation-play-state: paused;
+    top: 0%;
+   left: 64%;
+z-index: 1;
+}
+
+.fifth:hover {
+    animation-play-state: running;
+}
+
+
+.sixth {
+    width: 7.7%;
+    height: 7.7%;
+    display: inline-block;
+    position: fixed;
+
+        animation-name: opacityToZero,moveToTop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+
+    top: -3%;
+   left: 75.5%;
+z-index: 1;
+}
+
+.sixth:hover {
+    animation-play-state: running;
+}
+
+.god { 
+    width: 4%;
+    height: 4%;
+    display: inline-block;
+    position: fixed;
+        animation-name: moveToBottoms;
+    animation-duration: 1s;
+    animation-fill-mode:none;
+    animation-play-state: paused;
+
+    top: 0%;
+   left: 18.2%;
+z-index: 1;
+}
+
+.god:hover {
+    animation-play-state: running;
+}
+
+
+.myra { 
+    width: 7.5%;
+    height: 7.5%;
+    display: inline-block;
+    position: fixed;
+        animation-name: moveToTops;
+    animation-duration: 1s;
+    	animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+
+    top: 48%;
+   left: 28.8%;
+z-index: 1;
+}
+
+
+.myra:hover {
+    animation-play-state: running;
+}
+
+
+
+.ring { 
+    width: 5.5%;
+    height: 5.5%;
+    display: inline-block;
+    position: fixed;
+            animation-name: moveToBottomring;
+    animation-duration: 1s;
+    	animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+
+    top: 31%;
+   left: 41.2%;
+z-index: 1;
+}
+
+.ring:hover {
+    animation-play-state: running;
+}
+
+.bluemyra { 
+    width: 4%;
+    height: 4%;
+    display: inline-block;
+    position: fixed;
+    animation-name: moveToBottomblue;
+    animation-duration: 1s;
+    	animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+
+
+    top: 20%;
+   left: 55%;
+z-index: 1;
+}
+
+.bluemyra:hover {
+    animation-play-state: running;
+}
+
+
+.cat { 
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    position: fixed;
+    animation-name: moveToBottomcat;
+    animation-duration: 1s;
+    	animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    top: 13%;
+   left: 62.5%;
+z-index: 1;
+}
+.cat:hover {
+    animation-play-state: running;
+}
+
+.bird { 
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    position: fixed;
+        animation-name: moveToTopbird;
+    animation-duration: 1s;
+    	animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+
+    bottom:7%;
+   left: 74.5%;
+z-index: 1;
+}
+.bird:hover {
+    animation-play-state: running;
+}
+
+.bug { 
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    position: fixed;
+
+    bottom: 23%;
+   left: 88%;
+z-index: 1;
+}
+
